@@ -26,7 +26,7 @@ PATCH http://localhost:3000/recipes/9.json
 Content-Type: application/json
 
 {
-  "title": "Pineapple Mud Pie",
+  "title": "Pineapple Chocolate Pie",
   "ingredients": "Pineapple, chocolate",
   "directions": "mix",
   "prep_time": 30
@@ -42,8 +42,8 @@ POST http://localhost:3000/users
 Content-Type: application/json
 
 {
-  "name": "Jonathan",
-  "email": "jonathan@example.com",
+  "name": "Test",
+  "email": "test@example.com",
   "password": "password",
   "password_confirmation": "password"
 }
@@ -53,6 +53,6 @@ POST http://localhost:3000/sessions
 Content-Type: application/json
 
 {
-  "email": "jonathan@example.com",
+  "email": "test@example.com",
   "password": "password"
 }
