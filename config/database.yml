@@ -82,3 +82,7 @@ production:
   database: kitchen_connect_rails_production
   username: kitchen_connect_rails
   password: <%= ENV["KITCHEN_CONNECT_RAILS_DATABASE_PASSWORD"] %>
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  url: <%= ENV['DATABASE_URL'] %>
