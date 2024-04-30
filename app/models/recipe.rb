@@ -1,5 +1,6 @@
 class Recipe < ApplicationRecord
-  belongs_to :user
+  has_many :subscriptions, as: :subscribable, dependent: :destroy
+  has_many :subscribers, through: :subscriptions, source: :subscriber, source_type: 'User'
   validates :title, presence: true
 
   def i_list
