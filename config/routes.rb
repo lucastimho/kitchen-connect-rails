@@ -10,4 +10,7 @@ Rails.application.routes.draw do
   post "/users" => "users#create" #signup as a user
 
   post "/sessions" => "sessions#create" #log in as a user
+
+  post '/users/:user_id/subscribe/:target_id', to: 'subscriptions#create'
+
 end
