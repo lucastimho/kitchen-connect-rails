@@ -1,6 +1,6 @@
 # User.create!([
-#   {name: "Lucas", email: "lucas@example.com", password_digest: "$2a$12$de7yMXmpwEbvIDvmbqOQo.FL4s9xmXHbuB3dw.l8xRwoGmzRigNV2"},
-#   {name: "Ethan", email: "ethan@example.com", password_digest: "$2a$12$8Hy19ojah17QkP/ey1RmOuapTwkGvg91u83VD7p3yu5anQdfCNIEa"}
+#   {name: "Lucas", email: "lucas@example.com", password_digest: "$2a$12$ya54Wqiu9OeS1eBQeCRxTuNiRXdkF1cYCuhn/KmEPaRDG2bbSE5rq"},
+#   {name: "Ethan", email: "ethan@example.com", password_digest: "$2a$12$q1zRO5zpg3fc/H0YEpxCUOE0u67wy1OzwF0AP3PYINCpo/AfN2fg2"}
 # ])
 
 Recipe.create!([
